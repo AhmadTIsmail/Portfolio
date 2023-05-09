@@ -5,3 +5,12 @@
 .display-none{
 @apply hidden;    
 }
+
+html {
+    scroll-behavior: smooth;
+}  
+
+.dimantion{
+    width: 250px;
+    height: 250px;
+}

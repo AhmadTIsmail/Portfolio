@@ -55,6 +55,17 @@ themeCheck()
 
 document.onkeydown = checkKey;
 
+$(window).scroll(function () {
+    if ($(window).scrollTop() >= 300) {
+    $('#navAboutMe').css('background','#461B93');
+    } else {
+    $('#navAboutMe').css('background','#55555');
+    }
+    });
+
+
+
+
 function checkKey(e) {
 
     e = e || window.event;
