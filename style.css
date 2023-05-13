@@ -163,45 +163,46 @@ html {
     width: 100%;
 }
 
-
-.home-imgHover {
-    position: absolute;
-    top: 0;
-    right: 30px;
-    width: 500px;
-    height: 100%;
-    background: transparent;
-    transition: 3s;
-    animation: manipActiveHover .1s forwards;
-    animation-delay:4s ;
-    pointer-events: none;
-}
-
-.home-imgHover:hover {
-    /* background: #081b29; */
-    background-image: url(./image/Mern-Stack-Developer.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    opacity: .8;
-}
-
-.home-imgHover::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 120%;
-    height: 100%;
-    /* background: #081b29; */
-    background-image: url(./image/Mern-Stack-Developer.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    animation: showRight 1s ease forwards;
-    animation-delay: 3s;
-    z-index: 100;
-}
+@media screen and (min-width: 1218px) {
+    .home-imgHover {
+        position: absolute;
+        top: 0;
+        right: 30px;
+        width: 500px;
+        height: 100%;
+        background: transparent;
+        transition: 3s;
+        animation: manipActiveHover .1s forwards;
+        animation-delay:4s ;
+        pointer-events: none;
+    }
+    
+    .home-imgHover:hover {
+        background-image: url(./image/Mern-Stack-Developer.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        opacity: .8;
+    }
+    
+    .home-imgHover::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 120%;
+        height: 100%;
+        background-image: url(./image/Mern-Stack-Developer.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        animation: showRight 1s ease forwards;
+        animation-delay: 3s;
+        z-index: 100;
+    }
+    
+    
+  }
 
 
 /*KEYFRAMS ANIMATION*/
