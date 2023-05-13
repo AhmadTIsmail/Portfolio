@@ -8,7 +8,6 @@ const systemTheme=window.matchMedia('(prefers-color-scheme: dark)').matches
 const iconToggle=()=>{
     moonIcon.classList.toggle("display-none")
     sunIcon.classList.toggle("display-none")
-
 }
 
 const themeCheck =()=>{
