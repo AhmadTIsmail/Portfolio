@@ -53,41 +53,41 @@ moonIcon.addEventListener("click",()=>{
 themeCheck()
 
 
-document.onkeydown = checkKey;
+// document.onkeydown = checkKey;
 
-$(window).scroll(function () {
-    if ($(window).scrollTop() >= 300) {
-    $('#navAboutMe').css('background','#461B93');
-    } else {
-    $('#navAboutMe').css('background','#55555');
-    }
-    });
-
-
+// $(window).scroll(function () {
+//     if ($(window).scrollTop() >= 300) {
+//     $('#navAboutMe').css('background','#461B93');
+//     } else {
+//     $('#navAboutMe').css('background','#55555');
+//     }
+//     });
 
 
-function checkKey(e) {
 
-    e = e || window.event;
 
-    if (e.keyCode == '38') {
-        console.log("up")
-        // up arrow
-    }
-    else if (e.keyCode == '40') {
-        console.log("down")
+// function checkKey(e) {
 
-        // down arrow
-    }
-    else if (e.keyCode == '37') {
-        console.log("left")
+//     e = e || window.event;
 
-       // left arrow
-    }
-    else if (e.keyCode == '39') {
-        console.log("right")
+//     if (e.keyCode == '38') {
+//         console.log("up")
+//         // up arrow
+//     }
+//     else if (e.keyCode == '40') {
+//         console.log("down")
 
-       // right arrow
-    }
+//         // down arrow
+//     }
+//     else if (e.keyCode == '37') {
+//         console.log("left")
 
-}
+//        // left arrow
+//     }
+//     else if (e.keyCode == '39') {
+//         console.log("right")
+
+//        // right arrow
+//     }
+
+// }

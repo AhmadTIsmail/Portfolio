@@ -36,12 +36,12 @@
 
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <a href="#home">
           <div class="flex flex-shrink-0 items-center">
-            <img class="block h-8 w-auto lg:hidden" src="./image/crown-svgrepo-com.svg" alt="crown">
-            <img class="hidden h-8 w-auto lg:block" src="./image/crown-svgrepo-com.svg" alt="crown">
-
+            <img   class="block h-8 w-auto lg:hidden" src="./image/crown-svgrepo-com.svg" alt="crown">
+            <img   class="hidden h-8 w-auto lg:block" src="./image/crown-svgrepo-com.svg" alt="crown">
           </div>
-
+        </a>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex  space-x-4">
               <a href="#AboutMe"
@@ -87,58 +87,41 @@
   </nav>
 
 
-  <!-- *******************************************************************************   -->
-  <div id="GFG_UP">
-    <div>
-      <div class="flex flex-wrap justify-center gap-14  mb-28">
-        <div class=" mt-40 ">
-          <div
-            class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ms-23">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              I'am ahmad
-              ismail
-              I am electrical engineering &
-              full stack developer .</h5>
-            <a href="#"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
-              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd"></path>
-              </svg>
-            </a>
-          </div>
-
+  <!-- ************************************Home*******************************************   -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <h1 class="font-serif">Hi I'm Ahmad ismail</h1>
+      <h3 class="font-serif">Full-stack Developer</h3>
+      <p class="font-serif"> I am electrical engineering &
+        full stack developer .</p>
+        <div class="btn-box  dark:text-indigo-500">
+          <a href="#" class="font-serif">my Cv</a>
         </div>
-
-        <div class="mt-40">
-          <div
-            class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ms-23">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> I'am ahmad
-              ismail
-              I am electrical engineering &
-              full stack developer .</h5>
-          </div>
-
-        </div>
-      </div>
     </div>
-    <div>
+  
+    
+    <div class="home-sci">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-twitter' ></i></a>
+      <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+    </div>
+    
+    <span class="home-imgHover"></span>
+  </section>
+
   <!--  *************************************AboutMe***********************************   -->
-      <section id="AboutMe">
+      <section id="AboutMe" class="pb-24 ">
         <div class="px-10">
           <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
             <div class="relative">
-              <img class="h-1/4 absolute top-0 left-0 -z-10" src="./image/dot.avif" alt="" />
-              <div class="h-full rounded-full overflow-hidden">
-                <img src="./image/my_image.jpg" alt="" />
+              <img class="h-1/4 absolute top-0  -z-10 dark:hidden" src="./image/dot.avif" alt="">
+              <div class="h-full rounded-full overflow-hidden ">
+                <img src="./image/my_image.jpg" width="300 " alt="">
               </div>
             </div>
             <div class="my-auto flex flex-col gap-3 border-2 border-indigo-60 rounded-lg py-2 px-2">
-              <h1 class="text-3xl text-indigo-600 font-bold">ABOUT ME</h1>
-              <p class="text-2xl text-gray-700">
+              <h1 class="text-3xl text-indigo-600 font-bold dark:text-black">ABOUT ME</h1>
+              <p class="text-2xl text-gray-700 font-serif dark:text-black">
                 I'am ahmad Browser development including control, planning, management, and decision making is one of
                 my interests. I focus on details everyone else might miss. I am a quick learner, problem solver,
                 and hard-working person.
@@ -148,60 +131,69 @@
         </div>
       </section>
   <!--  ************************************************************************   -->
-      <div class="inline-flex items-center justify-center w-full">
-    <hr  class="w-96 h-px my-8 bg-black border-0 ">
+      <section id="Projects_Work" class="inline-flex items-center justify-center  w-full ">
+    <hr   class="w-96 h-px my-8  bg-black border-0 ">
     <span
       class="text-2xl absolute px-2 font-medium font-serif text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-800 ">Projects
       & Work</span>
-      </div>
-      <section class="bg-white">
-        <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
-          <aside class="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
-            <img alt="Pattern"
-              src="https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-              class="absolute inset-0 h-full w-full object-cover" />
-          </aside>
-
-          <main aria-label="Main"
-            class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
-            <div class="max-w-xl lg:max-w-3xl">
-              <a class="block text-blue-600" href="/">
-                <span class="sr-only">Home</span>
-                <svg class="h-8 sm:h-10" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
-                    fill="currentColor" />
-                </svg>
-              </a>
-
-              <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">iquam, quibusdam aperiam
-                voluptatum.
-              </h1>
-
-              <p class="mt-4 leading-relaxed text-gray-500">
-                I'am ahmad Browser development including control, planning, management, and decision making is one of
-                my interests. I focus on details everyone else might miss. I am a quick learner, problem solver,
-                and hard-working person.
-              </p>
-
-            </div>
-          </main>
-        </div>
       </section>
+      <section class="text-gray-600 body-font overflow-hidden">
+  <div class="container px-5 pb-20 pt-11 mx-auto">
+    <div class="flex flex-wrap -m-12">
+      <div class="p-12 md:w-1/2 flex flex-col items-start">
+        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest dark:bg-slate-400">Fund-me</span>
+        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4 dark:text-black">Help other people to  achieve their ambitions</h2>
+        <p class="leading-relaxed mb-8 dark:text-black">Do you want to provide support for charitable projects or provide support for some emerging projects that will revolutionize?
+          Fund me is the most suitable application for you. It provides an easy way for people to provide support and contribute to financing charitable and investment projects. It also provides individuals with a simple way to present their ideas and receive financial support. It is also characterized by ease of use and simplicity of design.</p>
+        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full dark:border-black">
+          <a class="text-indigo-500 inline-flex items-center dark:text-black">Learn More
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <a class="inline-flex items-center">
+          <span class="flex-grow flex flex-col pl-4">
+          </span>
+        </a>
+      </div>
+      <div class="p-12 md:w-1/2 flex flex-col items-start">
+        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest dark:bg-slate-400">SnapFeed</span>
+        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4 dark:text-black">Record your unique moment and share it with your community here is your place .</h2>
+        <p class="leading-relaxed mb-8 dark:text-black">It is wonderful to immortalize the moments that we live and share them with those we love if you want an easy and unique way to do all that and more. SnapFeed is the most suitable application for all of that, as it allows you to share moments of joy and pleasure and share them with others. It also allows you to send instant messages to people with whom you have a relationship and communicate with them. </p>
+        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full dark:border-black">
+          <a class="text-indigo-500 inline-flex items-center dark:text-black">Learn More
+            <svg class="w-4 h-4 ml-2 " viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <a class="inline-flex items-center">
+          <span class="flex-grow flex flex-col pl-4 ">
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- hover:shadow-[_10px_6px_6px_8px_rgba(8,_112,_184,_0.3)] hover:rounded-xl dark:drop-shadow -->
   <!--  **************** **************My-skill****************************************** -->
-  <br id="My_skill" >
-      <div  class="inline-flex items-center justify-center w-full">
+  <br >
+      <section   id="My_skill" class="inline-flex items-center justify-center w-full">
         <hr class="w-96 h-px my-8 bg-black border-0 ">
         <span class="text-2xl absolute px-2 font-medium font-serif text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-800 ">my
           skill</span>
-      </div>
+      </section>
       <div class="container mb-12 mx-auto px-4 md:px-12">
         <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 ">
+          <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">                    
             <article
-              class="overflow-hidden bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <img alt="js" class="block h-52 w-full p-2 rounded-2xl" src="./image/js.png">
+              class="overflow-hidden bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-black hover:shadow-[0_20px_40px_rgba(8,_112,_184,_0.7)]">
+              <img alt="js" class="block h-52 w-full p-2 rounded-2xl" src="./image/js.jpg">
               <header class="flex items-center justify-center leading-tight p-2 md:p-4">
                 <h1 class="text-lg">
                   <a class="no-underline hover:underline text-black font-serif" href="#">
@@ -215,7 +207,7 @@
 
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article
-              class="overflow-hidden  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              class="overflow-hidden  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-black hover:shadow-[0_20px_40px_rgba(8,_112,_184,_0.7)]">
               <img alt="html-5" class="block h-52 w-full  p-2 rounded-2xl" src="./image/html-5.png">
               <header class="flex items-center justify-center leading-tight p-2 md:p-4">
                 <h1 class="text-lg">
@@ -229,7 +221,7 @@
 
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 ">
             <article
-              class="overflow-hidden   bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+              class="overflow-hidden   bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-black hover:shadow-[0_20px_40px_rgba(8,_112,_184,_0.7)]">
               <img alt="css-3" class="block h-52 w-full p-2 rounded-2xl" src="./image/css-1.png">
               <header class="flex items-center justify-center leading-tight p-2 md:p-4">
                 <h1 class="text-lg">
@@ -243,7 +235,7 @@
 
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 ">
             <article
-              class="overflow-hidden bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              class="overflow-hidden bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-black hover:shadow-[0_20px_40px_rgba(8,_112,_184,_0.7)]">
               <img alt="node_js" class="block h-52 w-full p-2 rounded-2xl" src="./image/node_js.png">
               <header class="flex items-center justify-center leading-tight p-2 md:p-4">
                 <h1 class="text-lg">
@@ -258,7 +250,7 @@
 
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
             <article
-              class="overflow-hidden  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              class="overflow-hidden  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-black hover:shadow-[0_20px_40px_rgba(8,_112,_184,_0.7)]">
               <img alt="mongos_db" class="block h-52 w-full p-2 rounded-2xl" src="./image/mongos_db.png">
               <header class="flex items-center justify-center leading-tight p-2 md:p-4">
                 <h1 class="text-lg">
@@ -272,7 +264,7 @@
 
           <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 ">
             <article
-              class="overflow-hidden   bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+              class="overflow-hidden   bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-black hover:shadow-[0_20px_40px_rgba(8,_112,_184,_0.7)]">
               <img alt="react" class="block h-52 w-full p-2 rounded-2xl" src="./image/react.png">
               <header class="flex items-center justify-center leading-tight p-2 md:p-4">
                 <h1 class="text-lg">
@@ -300,21 +292,21 @@
           <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div>
               <p>
-                <span class="text-xs tracking-wide text-gray-500 uppercase">
-                  Call ume
+                <span class="text-xs tracking-wide text-gray-500 uppercase dark:text-black">
+                  Call me
                 </span>
 
-                <a href="#" class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-1xl">
+                <a href="#" class="block text-xl font-medium text-gray-900 hover:opacity-75 sm:text-1xl dark:text-black">
                   +962776681357
                 </a>
               </p>
 
               <p>
-                <span class="text-xs tracking-wide text-gray-500 uppercase">
+                <span class="text-xs tracking-wide text-gray-500 uppercase dark:text-black">
                   my email
                 </span>
 
-                <a href="#" class="block text-xl font-medium text-gray-900 hover:opacity-75 sm:text-1xl">
+                <a href="#" class="block text-xl font-medium text-gray-900 hover:opacity-75 sm:text-1xl dark:text-black">
                   ahmad.thaer.ismail@gmail.com
                 </a>
               </p>
@@ -322,7 +314,7 @@
 
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 ">
               <div>
-                <p class="font-medium text-gray-900">contact me at</p>
+                <p class="font-medium text-gray-900 dark:text-black">contact me at</p>
 
                 <ul class="flex gap-6 mt-8">
                   <li>
@@ -370,7 +362,7 @@
               <nav aria-label="Footer Navigation - Support">
               </nav>
 
-              <p class="mt-8 text-xs text-gray-500 sm:mt-0">
+              <p class="mt-8 text-xs text-gray-500 sm:mt-0 dark:text-black">
                 &copy; 2024. Ahmad Ismail
               </p>
             </div>
