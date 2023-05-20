@@ -23,7 +23,7 @@ portfolio definition, it is a collection of a wide range of assets that are owne
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - For some control
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - Hypertext Markup Language
 - [CSS3](https://en.wikipedia.org/wiki/CSS) - Cascading Style Sheets 
-- [tailwind](https://nodejs.org/en/) - tailwind CSS is an open source CSS framework
+- [tailwind](https://nodejs.org/en/) - Tailwind CSS is an open source CSS framework
 
 ## deploy <a name = "#deploy"></a>
 
