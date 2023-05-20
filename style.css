@@ -16,12 +16,17 @@ html {
     height: 250px;
 }
 
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 
 .home {
     height: 100vh;
-    background: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg") no-repeat;
+    background: url("./image/portfolio-background-header.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
